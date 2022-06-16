@@ -10,7 +10,7 @@ def flatten_array(nested_array):
     (list) flat array of ints
 
     :Raises:
-    ValueError if non list or int values found
+    RuntimeWarning if non list or int values found
     """
     flat_array = []
     for item in nested_array:
